@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav h2{
+    color: pink;
+    font-family: 'Caramel', cursive;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+nav ul {
+    gap: 3rem;
+    color: pink;
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+    align-items: center;
+    font-family: 'Caramel', cursive;
+}
+.min{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.min h1{
+    margin: 10px;
+    color: #887146;
+    font-family: 'Brush Script MT', Brush Script Std, cursive ;
+}
+.min1 {
+    margin: px;
+    display: block;
+    text-align: center;
+    width: 40%;
+}
+.min2 {
+    padding: 0px;
+    display: block;
+    text-align: center;
+    width: 50%;
+    height: 500px;
+}
+.first{
+    display: flex;
+    font-size: 70px;
+    flex-direction: column;
+}
+h5{
+    color: rgb(149, 149, 231);
+    font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+button {
+    background-color: #ffffff;
+    border: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+}
+
+button:hover {
+    box-shadow: 5px 5px blue,-5px -5px blue;
+    border: 1px solid rgb(84, 84, 84);
+}
+.two-section div{
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.two-section div img{
+    width: 150px;
+    height: 70px;
+    padding: 3px;
+}
+#second {
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 250px;
+    color: rgb(149, 149, 231);
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    
+}
+i {
+    display: flex;
+    color: rgb(149, 149, 231);
+    text-align: center;
+    border: solid;
+    margin: 5px;
+    margin-right: 140px;
+    margin-bottom: 100px;
+}
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px;
+    color: rgb(165, 165, 255);
+    
+}
+.position {
+    display:flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content:space-between;
+}
+.position .work h1 {
+    align-items: flex-start;
+    font-size: 100px;
+}
+.man div {
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    margin: 20px;
+    padding: 44px;
+    width: 240px;
+    height: 250px;
+
+}
+.man {
+    padding: 20px;
+    width: 80%;
+}
+.man span {
+    font-size: 15px;
+    padding: 10px    border: solid;
+}
+.four-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px;
+}
+.four-section div {
+    width: 50%;
+}
+.four-section p {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.title {
+    color: rgb(144, 144, 247);
+    font-size: 33px;
+}
+.five {
+    gap: 15px;
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.five img {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    object-fit: cover;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.six {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    padding: 50px;
+
+}
+.one-image img{
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    text-align: right;
+}
+.one-image {
+    margin: 00px;
+
+}
+.six h1 {
+    color: blue;
+    margin: 25px;
+}
+.two-element img{
+    width: 50%;
+    margin: 30px;
+    padding: 44px;
+}
+.two-element {
+    width: 50%;
+    margin: 30px;
+    padding: 44px;
+}
+.two-element p {
+    padding: 0 10px;
+    text-align: justify;
+    font-size: 14px;
+    font-family: 'arial', sans-serif;
+}
+.seven div{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 280px;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+.seven {
+    background-color: rgb(239, 247, 255);
+    gap: 1rem;
+    margin: 10px;
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.seven img{
+    border-radius: 30px 30px;
+    width: 55px;
+    height: 55px;
+    border:  solid#ffa600;
+    margin-bottom: 19px;
+    margin-top: 19px;
+}
+.seven p{
+    text-align: center;
+    padding: 10px;
+    color: #ffa600;
+}
+.seven div:hover {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    43% { transform: translate(0, 0); }
+    25% { transform: translate(-5px, 0); }
+    50% { transform: translate(5px, 0); }
+    75% { transform: translate(-5px, 0); }
+    100% { transform: translate(0, 0); }
+}
+.footer-one{
+    display: flex;
+    margin: 60px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.footer-one h3{
+    color: rgb(80, 80, 85);
+    font-size: 24px;
+    padding-top: 60px;
+
+}
+.foot p{
+    color: rgb(140, 157, 173);
+    padding: 5px;
+    padding-top: 18px;
+    
+
+}.foot {
+    display: block;
+    margin-top: -210px;
+    margin-left: 60px;
+    justify-content: flex-start;
+
+}
+.foot3{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 21px;
+
+}
+.foot2 p{
+    color: rgb(58, 62, 66);
+    padding: 13px;
+    margin: 35px;
+    width: 400px;
+    font-size: 23px;
+
+}
+.foot3 button{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.footer-one i{
+    font-size: 29px;
+    margin: 10px;
+}
+.footer-one.foot{
+    width: 20%;
+}
+input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 290px;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 2 0 5px #ccc;
+}
+.footer-two {
+    margin: 70px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+.footer-two video{
+    width: 400px;
+    margin-top: 20px;
+    height: 305px;
+}
+.footer-two p{
+    color: #71748f;
+    font-size: 22px;
+}
+.footer-two h1{
+    font-family:'Caramel', cursive;;
+    font-size: 20px;
+}
+.footer-fin{
+    background-color: #333;
+    text-align: center;
+}
+.footer-fin h3{
+    color: #fca75d;
+    text-align: center;
+    font-family: 'Brush Script MT', Brush Script Std, cursive ;
+    font-size: 30px;
+    padding: 24px;
+}
