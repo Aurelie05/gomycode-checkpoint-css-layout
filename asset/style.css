@@ -17,6 +17,7 @@ nav ul {
     gap: 3rem;
     color: pink;
     display: flex;
+    padding: 20px;
     font-size: 20px;
     list-style: none;
     align-items: center;
@@ -33,18 +34,11 @@ nav ul {
     font-family: 'Brush Script MT', Brush Script Std, cursive ;
 }
 .min1 {
-    margin: px;
     display: block;
     text-align: center;
     width: 40%;
 }
-.min2 {
-    padding: 0px;
-    display: block;
-    text-align: center;
-    width: 50%;
-    height: 500px;
-}
+
 .first{
     display: flex;
     font-size: 70px;
@@ -96,12 +90,18 @@ button:hover {
 }
 i {
     display: flex;
-    color: rgb(149, 149, 231);
+    color: rgb(39, 39, 51);
     text-align: center;
-    border: solid;
     margin: 5px;
     margin-right: 140px;
     margin-bottom: 100px;
+    
+}
+.anime:hover{
+    background-color: rgb(149, 149, 231);
+}
+.couleur{
+    color: white;
 }
 .work {
     display: flex;
@@ -139,8 +139,9 @@ i {
     width: 80%;
 }
 .man span {
-    font-size: 15px;
-    padding: 10px    border: solid;
+    font-size: 25px;
+    padding: 0px;
+
 }
 .four-section {
     display: flex;
